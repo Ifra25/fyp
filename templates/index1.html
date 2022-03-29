@@ -1,0 +1,23 @@
+
+<head> 
+    
+</head>
+    
+<body bgcolor="sky-blue"><h1>Welcome</h1>
+<pre font-size="bold">
+    Are you ready to get your business online? 
+    Are you looking to step up your current website's    
+    look? We Can Help!
+
+     We create modern designs that get you more leads and sells.
+     We make sure it works on all devices including smart phones 
+     and tablets.</pre>
+
+
+{% if user.is_authenticated%}
+<a href="{% url 'logout' %}">Logout</a> <br>
+{% else %}
+<a href="{% url 'register' %}">Register</a> <br>
+<a href="{% url 'login' %}">Login</a> 
+{% endif %}
+</body>

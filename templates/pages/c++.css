@@ -1,0 +1,81 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-image: linear-gradient(60deg, #070ff4, #009fff);
+}
+.btn{
+	background: green;
+	color: white;
+	margin: 10px;
+	border-radius: 15px;
+	background-size: cover;
+}
+h1{
+	color: white;
+	margin-top: 20px;
+	font-style: italic;
+	margin-left: 20%;
+}
+img{
+	margin-top: 20px;
+}
+input{
+	width: 50px;
+	height: 40px;
+	margin-top: 10px;
+	border-radius: 14px;
+}
+a:hover {
+  background-color: greenyellow;
+  border-radius: 20px;
+}
+p{
+	font-size: 35px;
+	color: blue;
+	margin: 250px;
+}
+.section{
+	margin-top: 20px;
+	background: url(bg.png);
+	background-size: cover;
+}
+.nav-two{
+	width: 100%;
+
+}
+
+
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: arial;
+  text-align: left;
+  width: 100%;
+  position: sticky;
+  top: 0;
+}
+ul.topnav li {float: left;}
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  float: left;
+  font-size: 17px;
+  
+}
+img{
+	width: 50%;
+}
+
+a{
+	color: white;
+}
+
+
